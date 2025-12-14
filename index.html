@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SendData</title>
+
+    <style>
+        fieldset{
+            align-items: center;
+            width: 700px;
+            align-content: center;
+            text-align: center;
+            background-color: rgb(8, 88, 88);
+            border-radius: 15px;
+        }
+
+        label{
+            font-weight: bold;
+            font-size: 20px;
+            color: olivedrab;
+        }
+
+        input{
+            height: 30px;
+        }
+
+        button{
+            height: 28px;
+            color: rgb(32, 161, 212);
+            font-weight: bold;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <fieldset>
+
+    <h1>Register your Credentials</h1>
+    <h5 style="font-style: italic;">Please fill all the fields</h5>
+    <hr>
+ 
+    <form id="formCredentials"> 
+        <label>First Name</label><br>
+        <input type="text" name="fname" placeholder="Enter First Name" id="fname" required><br>
+        <br>
+
+        <label>Second Name</label><br>
+        <input type="text" name="sname" placeholder="Enter Second Name" id="sname" required><br>
+        <br>
+
+        <label>Email Address</label><br>
+        <input type="email" name="email" placeholder="Enter Email Address" id="email" required><br>
+        <br>
+
+        <aside>
+
+        <label>Password</label><br>
+        <input type="password" name="password" placeholder="Enter Password" id="password" required><br>
+        <br>
+
+        <button type="submit">Submit</button>
+
+        </aside>
+
+    </form>
+</fieldset>
+
+
+</body>
+</html>
