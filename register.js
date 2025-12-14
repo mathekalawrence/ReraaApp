@@ -21,7 +21,7 @@ document.getElementById('formCredentials').addEventListener('submit', function(e
     //Optional
       console.log('Complete Form Data Object:', formData);
 
-      //alert('Form Data Submitted Succesfully!!');
+      alert('Form Data Submitted Succesfully!!');
 
     //Clearing the form after submission
     this.reset();
