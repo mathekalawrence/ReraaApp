@@ -16,5 +16,14 @@ document.getElementById('formCredentials').addEventListener('submit', function(e
     console.log('First Name:', formData.firstName);
     console.log("Second Name: ", formData.secondName);
     console.log('Email Address: ', formData.email);
+    console.log('Password: ', formData.password);
 
-})
+    //Optional
+      console.log('Complete Form Data Object:', formData);
+
+      //alert('Form Data Submitted Succesfully!!');
+
+    //Clearing the form after submission
+    this.reset();
+
+});
