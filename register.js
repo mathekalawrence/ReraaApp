@@ -9,6 +9,8 @@ document.getElementById('formCredentials').addEventListener('submit', function(e
         secondName: document.getElementById('sname').value,
         email: document.getElementById('email').value,
         password: document.getElementById('password').value,
+        password2: document.getElementById('password2').value,
+
     };
 
     //logging to the console
@@ -17,6 +19,7 @@ document.getElementById('formCredentials').addEventListener('submit', function(e
     console.log("Second Name: ", formData.secondName);
     console.log('Email Address: ', formData.email);
     console.log('Password: ', formData.password);
+    console.log('Confirm Password: ', formData.password2);
 
     //Optional
       console.log('Complete Form Data Object:', formData);
